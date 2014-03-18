@@ -1,0 +1,3 @@
+Vim tips
+--------
+:match ErrorMsg '\%>80v.\+'
