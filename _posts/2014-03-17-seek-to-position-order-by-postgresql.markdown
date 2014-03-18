@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Seek to a position in an ordered relation using PostgreSQL
+comments: true
 ---
 
 I need to seek to a given position within a sorted relation to fetch an object
