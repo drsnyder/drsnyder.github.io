@@ -46,7 +46,7 @@ So why is this an issue? I wrote a python [script](https://gist.github.com/10909
 to measure the read times from `/dev/urandom` as you increase the contention by
 adding more threads. Here is a plot with the results.
 
-![/dev/urandom reads as a function of threads]({{ site.url }}/assets/urandom-reads-t.png)
+![/dev/urandom reads as a function of threads](/assets/urandom-reads-t.png)
 
 Running the same script with a user-land file is more or less linear out to 16
 threads. A simple spinlock can have a big impact in the multi-core world of
