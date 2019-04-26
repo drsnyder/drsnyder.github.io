@@ -1,4 +1,17 @@
-name: Damon Snyder
+title: Two hard problems
+author: Damon Snyder
 url: http://drsnyder.us
-markdown: redcarpet
-pygments: true
+markdown: kramdown
+description: >- # this means to ignore newlines until "baseurl:"
+github_username: drsnyder
+theme: minima
+plugins:
+  - jekyll-feed
+disqus:
+  shortname: drsnyderus
+minima:
+  social_links:
+    github: drsnyder
+    linkedin: drsnyder
+google_analytics: UA-50150203-1
+show_excerpts: true
